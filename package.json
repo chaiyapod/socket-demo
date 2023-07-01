@@ -22,7 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
-    "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/platform-express": "^10.0.4",
     "@nestjs/platform-socket.io": "^10.0.4",
     "@nestjs/websockets": "^10.0.4",
     "reflect-metadata": "^0.1.13",
@@ -68,5 +68,9 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "packageManager": "yarn@3.5.0",
+  "engines": {
+    "node": "16.20"
   }
 }
